@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import cv2
 import numpy as np
@@ -217,7 +216,6 @@ def show_processing():
             st.session_state.page = "login"
             
             # Refresh aplikasi
-=======
 import streamlit as st
 import cv2
 import numpy as np
@@ -436,5 +434,4 @@ def show_processing():
             st.session_state.page = "login"
             
             # Refresh aplikasi
->>>>>>> f68c69d576fe9758cf8b8df6a3666a7087a4465d
             st.rerun()

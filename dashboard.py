@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import cv2
 import numpy as np
@@ -183,7 +182,7 @@ def show_dashboard():
 
             st.session_state.image = img
             st.session_state.page = "processing"
-=======
+            
 import streamlit as st
 import cv2
 import numpy as np
@@ -368,5 +367,4 @@ def show_dashboard():
 
             st.session_state.image = img
             st.session_state.page = "processing"
->>>>>>> f68c69d576fe9758cf8b8df6a3666a7087a4465d
             st.rerun()
